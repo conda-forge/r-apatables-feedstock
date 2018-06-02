@@ -1,4 +1,4 @@
-{% set version = '2.0.2' %}
+{% set version = "2.0.3" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -12,7 +12,7 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/apaTables_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/apaTables/apaTables_{{ version }}.tar.gz
-  sha256: 4cd664999d51fb9788d81ef4e0190fbe380ad42c63a3945fb63f2920ed547b2c
+  sha256: 4566833422265ca046b1e671013801c6b9ba03f51d8c3f6135f3eada5c5b523b
 
 build:
   number: 0
