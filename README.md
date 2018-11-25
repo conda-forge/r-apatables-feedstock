@@ -14,9 +14,8 @@ Summary: A common task faced by researchers is the creation of APA style (i.e., 
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-apatables-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-apatables-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/r-apatables-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-apatables-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-apatables-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-apatables-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/r-apatables-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/r-apatables-feedstock)
 
 Current release info
 ====================
