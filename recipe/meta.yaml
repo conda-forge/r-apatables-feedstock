@@ -1,4 +1,4 @@
-{% set version = "2.0.5" %}
+{% set version = "2.0.8" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -11,12 +11,12 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/apaTables_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/apaTables/apaTables_{{ version }}.tar.gz
-  sha256: 6a3f4ed67f4d7794cb74b81c9c7faad4e473661c8328f7c668ae18dab0342841
+  sha256: 6d8712f01c8b2ddbe4ef77096cf44b0ac3e7bb1bcf430ca39c18ef983ee8c64b
 
 build:
   noarch: generic
   merge_build_host: true  # [win]
-  number: 1003
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
